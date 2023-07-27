@@ -100,26 +100,26 @@ export const specialForYou = [
             },
         ]
     },
-    {
-        id: 6,
-        name: 'Jordan 3',
-        price: '₦145,000',
-        image: '/jordan3.png',
-        colors: [
-            {
-                color: 'red'
-            },
-            {
-                color: 'blue'
-            },
-            {
-                color: 'gray'
-            },
-            {
-                color: 'yellow'
-            },
-        ]
-    },
+    // {
+    //     id: 6,
+    //     name: 'Jordan 3',
+    //     price: '₦145,000',
+    //     image: '/jordan3.png',
+    //     colors: [
+    //         {
+    //             color: 'red'
+    //         },
+    //         {
+    //             color: 'blue'
+    //         },
+    //         {
+    //             color: 'gray'
+    //         },
+    //         {
+    //             color: 'yellow'
+    //         },
+    //     ]
+    // },
     {
         id: 7,
         name: 'Rose Linds Lipstick',
