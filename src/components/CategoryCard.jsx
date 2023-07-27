@@ -42,7 +42,7 @@ const CategoryCard = ({name, image, price, colors}) => {
             ))
           } */}
 
-{colors.map((item) => {
+{/* {colors.map((item) => {
   console.log(item.color)
   return (
         <div
@@ -60,7 +60,12 @@ const CategoryCard = ({name, image, price, colors}) => {
 
           // className={`w-3 h-3 ${item.color === 'white' ? 'bg-white' : item.color === 'black' ? 'bg-black' : item.color !== 'white' && item.color !== 'black' ? `bg-${item.color}-500` : ''}`}
         ></div>
-      )})}
+      )})} */}
+      <div className='w-4 h-4 rounded-full bg-white border border-orange-500 p-[1px]'></div>
+      <div className='w-4 h-4 rounded-full bg-black'></div>
+      <div className='w-4 h-4 rounded-full bg-red-500'></div>
+      {/* <div className='w-4 h-4 rounded-full bg-yellow-500'></div> */}
+      <div className='w-4 h-4 rounded-full bg-blue-500'></div>
         </div>
       </div>
       </div> : <div className='relative bottom-[6rem] right-[2rem]'>
