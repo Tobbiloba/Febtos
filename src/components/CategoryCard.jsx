@@ -17,7 +17,7 @@ const CategoryCard = ({name, image, price, colors}) => {
 
   // console.log(colors)
   return (
-    <div className='px-2 bg-slate-100 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[2rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
+    <div className='px-2 bg-slate-100 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[1rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
       {
         showContent ?
       
