@@ -17,7 +17,7 @@ const CategoryCard = ({name, image, price, colors}) => {
 
   // console.log(colors)
   return (
-    <div className='px-2 bg-orange-100 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[2rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
+    <div className='px-2 bg-slate-100 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[2rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
       {
         showContent ?
       
@@ -27,7 +27,10 @@ const CategoryCard = ({name, image, price, colors}) => {
           <FavoriteBorderIcon className='text-white'/>
           </div>}
       </div>
-      <img src={image} alt="image"/>
+      <div className='w-[100%] flex justify-center'>
+<img src={image} alt="image"className='h-[9rem] w-auto'/>
+        </div>
+      
       <h1 className='font-bold text-slate-700'>{name}</h1>
       <div className='flex flex-row justify-between mt-2'>
         <p className='font-bold text-[14px]'>{price}</p>

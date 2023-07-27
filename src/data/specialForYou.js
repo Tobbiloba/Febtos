@@ -1,9 +1,10 @@
 export const specialForYou = [
     {
+        
         id: 1,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Joggers',
+        price: '₦20,000',
+        image: '/joggers.png',
         colors: [
             {
                 color: 'red'
@@ -21,9 +22,9 @@ export const specialForYou = [
     },
     {
         id: 2,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Nothing Phone 2',
+        price: '₦230,000',
+        image: '/nothing2.png',
         colors: [
             {
                 color: 'red'
@@ -61,9 +62,9 @@ export const specialForYou = [
     },
     {
         id: 4,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Sidemen Merch',
+        price: '₦105,000',
+        image: '/sidemen.png',
         colors: [
             {
                 color: 'red'
@@ -81,9 +82,9 @@ export const specialForYou = [
     },
     {
         id: 5,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Gucci Handbag',
+        price: '₦305,000',
+        image: '/gucci-bag.png',
         colors: [
             {
                 color: 'red'
@@ -101,9 +102,9 @@ export const specialForYou = [
     },
     {
         id: 6,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Jordan 3',
+        price: '₦145,000',
+        image: '/jordan3.png',
         colors: [
             {
                 color: 'red'
@@ -121,9 +122,9 @@ export const specialForYou = [
     },
     {
         id: 7,
-        name: 'Oraimo Wireless Airpod',
-        price: '₦25,000',
-        image: '/airpod.png',
+        name: 'Rose Linds Lipstick',
+        price: '₦85,000',
+        image: '/lipstick.png',
         colors: [
             {
                 color: 'red'
