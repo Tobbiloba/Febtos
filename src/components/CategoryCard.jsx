@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Skeleton } from '@mui/material';
 const CategoryCard = ({name, image, price, colors}) => {
   const [showContent, setShowContent] = useState(false);
@@ -16,13 +17,15 @@ const CategoryCard = ({name, image, price, colors}) => {
 
   // console.log(colors)
   return (
-    <div className='px-2 bg-gray-200 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[1rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
+    <div className='px-2 bg-orange-100 rounded-2xl w-[10.5rem] overflow-hidden h-[15.5rem] mt-[2rem]' onMouseEnter={handleShowWishlist} onMouseLeave={handleShowWishlist}>
       {
         showContent ?
       
       <div>
-        <div>
-        <div></div>
+        <div className='relative h-2 flex justify-end'>
+        {showWishlist && <div className='border relative left-[.75rem] bg-orange-500 h-[2.5rem] w-[2.5rem] flex items-center justify-center rounded-md'>
+          <FavoriteBorderIcon className='text-white'/>
+          </div>}
       </div>
       <img src={image} alt="image"/>
       <h1 className='font-bold text-slate-700'>{name}</h1>
