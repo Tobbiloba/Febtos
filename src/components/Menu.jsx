@@ -29,7 +29,7 @@ const Menu = () => {
       <div className='bg-white z-20 flex flex-row justify-between items-center pt-[1.25rem] pb-[.5rem]'>
         <div className='flex flex-row gap-[1rem] items-center'>
             <div className='w-8 h-8 rounded-full bg-black'></div>
-            <h1 className='font-mono text-[20px] font-medium text-slate-900'>Tobbie Store</h1>
+            <h1 className='font-mono text-[20px] font-medium text-slate-900'>Febtos</h1>
         </div>
         <div className='flex flex-row gap-[1rem]'>
             <RiSearch2Line className='icon text-slate-500 cursor-pointer' onClick={handleShowSearch}/>
@@ -49,11 +49,11 @@ const Menu = () => {
         
       }
 
-      { showNotification && <div className='absolute right-[1.5rem] backdrop-blur-sm bg-white/30 top-[4rem] w-[12.5rem] h-[10rem] border rounded-md flex items-center text-center'>
+      { showNotification && <div className='absolute right-[1.5rem] bg-white top-[4rem] w-[12.5rem] h-[10rem] border rounded-md flex items-center text-center'>
         <h1 className='font-mono text-slate-700'>You do not have any notification</h1>
         </div>}
 
-      <div className='fixed bottom-[1.5rem] w-[90%] h-[4rem] backdrop-blur-sm bg-black/30 border rounded-[4rem] flex flex-row justify-evenly items-center '>
+      <div className='fixed bottom-[1.5rem] w-[90%] h-[4rem] backdrop-blur-md bg-black/50 border rounded-[4rem] flex flex-row justify-evenly items-center '>
         <OtherHousesIcon className='text-white text-[24px] hover:text-orange-500'/>
         <StarsIcon className='text-white text-[25px] hover:text-orange-500'/>
         <FavoriteIcon className='text-white text-[24px] hover:text-orange-500'/>
