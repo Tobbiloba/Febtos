@@ -5,6 +5,7 @@ import Categories from '../components/Categories';
 import SpecialForYou from '../components/SpecialForYou';
 import Footer from '../components/Footer';
 import NikeOfficialStore from '../components/NikeOfficialStore';
+import PhoneDeals from '../components/PhoneDeals';
 const Homepage = () => {
 //   const currentScrollHeight = document.documentElement.scrollTop;
 // console.log('Curren window scroll height:', currentScrollHeight);
@@ -45,6 +46,7 @@ window.addEventListener('scroll', handleScroll);
         <Categories />
         <SpecialForYou />
         <NikeOfficialStore />
+        <PhoneDeals />
         <Footer />
       {/* </div> */}
     </div>

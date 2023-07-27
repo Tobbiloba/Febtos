@@ -55,7 +55,7 @@ const NikeCategory = ({ name, price, color, images, gender }) => {
   };
 
   return (
-    <div className='mt-[4rem] mb-[4rem]' onMouseEnter={handleShowSubImage} onMouseLeave={handleShowSubImage}>
+    <div className='mt-[3rem] mb-[3rem]' onMouseEnter={handleShowSubImage} onMouseLeave={handleShowSubImage}>
       <img src={images[currentImage].imageUrl} alt="image" className='rounded-2xl' />
       {showSubImage ? (
         <div className='mt-[1rem] padding'>
