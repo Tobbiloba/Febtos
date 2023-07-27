@@ -1,4 +1,4 @@
-const categories = [
+export const categories = [
     {
       id: 1,
       name: "Clothes",
@@ -25,13 +25,13 @@ const categories = [
     },
     {
       id: 5,
-      name: "Home & Living",
+      name: "Appliances",
       description: "Enhance your living space with trendy home decor and essentials.",
       image: "https://media.designcafe.com/wp-content/uploads/2020/09/30173843/home-decor-ideas-for-living-room.jpg",
     },
     {
       id: 6,
-      name: "Beauty & Personal Care",
+      name: "Beauty",
       description: "Discover beauty products and personal care items.",
       image: "https://techbullion.com/wp-content/uploads/2023/07/Beauty_20_26_20Personal_20Care4.jpg",
     },
@@ -43,19 +43,19 @@ const categories = [
     },
     {
       id: 8,
-      name: "Books & Stationery",
+      name: "Stationery",
       description: "Get lost in the world of books and find all your stationery needs.",
       image: "https://www.rankme1.com/wp-content/uploads/2019/12/stationery-books.jpeg",
     },
     {
       id: 9,
-      name: "Sports & Outdoors",
+      name: "Sports",
       description: "Find sports equipment and outdoor gear for your active lifestyle.",
       image: "https://media.istockphoto.com/id/949190760/photo/various-sport-equipments-on-grass.jpg?s=612x612&w=0&k=20&c=7JHsUcAFO7Vm2hido5ULJn2FUcOYTfi06GVkgVcuI6I=",
     },
     {
       id: 10,
-      name: "Toys & Games",
+      name: "Toys",
       description: "Discover fun toys and engaging games for all ages.",
       image: "https://as2.ftcdn.net/v2/jpg/02/59/51/87/1000_F_259518799_VewJAVP7Bm2MaDD71ennTIaYayFFjkJ4.jpg",
     },
