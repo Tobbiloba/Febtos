@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.h1{
+    font-size: 20px;
+    color: red;
+}
+
+/* Define the default padding for all screen sizes */
+.padding {
+    padding: 20px;
+  }
+  
+  /* Media query for screens with a maximum width of 768px (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .padding {
+      padding: 0 1.25rem;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 769px and a maximum width of 1200px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .padding {
+      padding: 3rem;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 1201px (e.g., desktops and larger screens) */
+  @media (min-width: 1201px) {
+    .padding {
+      padding: 10%;
+    }
+  }
+
+  .icon{
+    font-size: 22px;
+  }
