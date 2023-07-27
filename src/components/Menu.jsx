@@ -53,12 +53,12 @@ const Menu = () => {
         <h1 className='font-mono text-slate-700'>You do not have any notification</h1>
         </div>}
 
-      <div className='fixed bottom-[1.5rem] w-[90%] h-[4rem] backdrop-blur-md bg-black/50 border rounded-[4rem] flex flex-row justify-evenly items-center '>
-        <OtherHousesIcon className='text-white text-[24px] hover:text-orange-500'/>
-        <StarsIcon className='text-white text-[25px] hover:text-orange-500'/>
-        <FavoriteIcon className='text-white text-[24px] hover:text-orange-500'/>
-        <ShoppingCartIcon className='text-white text-[24px] hover:text-orange-500'/>
-        <Person2Icon className='text-white text-[26px] hover:text-orange-500'/>
+      <div className='fixed z-50 bottom-[1.5rem] w-[90%] h-[4rem] backdrop-blur-md bg-black/50 border rounded-[4rem] flex flex-row justify-evenly items-center '>
+        <OtherHousesIcon className='text-white text-[26px] hover:text-orange-500'/>
+        <StarsIcon className='text-white text-[27px] hover:text-orange-500'/>
+        <FavoriteIcon className='text-white text-[26px] hover:text-orange-500'/>
+        <ShoppingCartIcon className='text-white text-[26px] hover:text-orange-500'/>
+        <Person2Icon className='text-white text-[28px] hover:text-orange-500'/>
       </div>
     </div>
   );
