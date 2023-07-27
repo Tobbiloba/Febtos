@@ -18,7 +18,7 @@ export const nikeCategories = [
     },
     {
         id: 2,
-        name: "Nike Dunk Low",
+        name: "Air Jordan 1 Low",
         gender: "Women",
         color: 4,
         price: '109.95',
@@ -62,7 +62,7 @@ export const nikeCategories = [
     },
     {
         id: 4,
-        name: "Nike Dunk Low",
+        name: "Air Jordan 1 Low",
         gender: "Women",
         color: 4,
         price: '109.95',
