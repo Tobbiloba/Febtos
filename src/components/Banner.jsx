@@ -15,7 +15,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 
 const Banner = () => {
   return (
-    <div className='padding'>
+    <div className='padding mt-[1rem]'>
       <Swiper
         pagination={{
           type: 'progressbar',
@@ -31,7 +31,7 @@ const Banner = () => {
          {
             banner.map((item) => (
                 <SwiperSlide key={item.id}>
-                    <img src={item.image} alt="image" className='w-[100%] h-[12.5rem] rounded-xl'/>
+                    <img src={item.image} alt="image" className='w-[100%] h-[12.5rem] rounded-b-xl'/>
                     {/* <h1>{item.id}</h1> */}
                 </SwiperSlide> 
       
