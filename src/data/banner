@@ -1,0 +1,22 @@
+export const banner = [
+    {
+        id: 1,
+        image: 'https://cdn.dribbble.com/users/3614290/screenshots/10082245/media/fdcbed2ec960c855dc938446cd6cf577.png'
+    },
+    {
+        id: 2,
+        image: 'https://cdn.dribbble.com/users/11305838/screenshots/18019774/media/fa91d9393694d4ac5f2debb88e54ec60.jpg?resize=450x338&vertical=center'
+    },
+    {
+        id: 3,
+        image: 'https://cdn.dribbble.com/users/11305838/screenshots/17969209/media/f5293a39461db811a862ae854d4527ca.jpg?resize=450x338&vertical=center'
+    },
+    {
+        id: 4,
+        image: 'https://cdn.dribbble.com/users/24037/screenshots/17756856/media/e6075ca83d566b4b835735e88236fa5d.png?resize=450x338&vertical=center'
+    },
+    {
+        id: 5,
+        image: 'https://cdn.dribbble.com/users/3614290/screenshots/10082245/media/fdcbed2ec960c855dc938446cd6cf577.png?resize=450x338&vertical=center'
+    },
+]

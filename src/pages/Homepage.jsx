@@ -6,6 +6,8 @@ import SpecialForYou from '../components/SpecialForYou';
 import Footer from '../components/Footer';
 import NikeOfficialStore from '../components/NikeOfficialStore';
 import PhoneDeals from '../components/PhoneDeals';
+import TopPhoneDeals from '../components/TopPhoneDeals';
+import Banner from '../components/Banner';
 const Homepage = () => {
 //   const currentScrollHeight = document.documentElement.scrollTop;
 // console.log('Curren window scroll height:', currentScrollHeight);
@@ -42,11 +44,14 @@ window.addEventListener('scroll', handleScroll);
       }
       
       {/* <div className='padding'> */}
-        <Ad />
+        
+        <Banner />
         <Categories />
         <SpecialForYou />
         <NikeOfficialStore />
+        <Ad />
         <PhoneDeals />
+        <TopPhoneDeals />
         <Footer />
       {/* </div> */}
     </div>
