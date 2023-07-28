@@ -1,4 +1,4 @@
-const phoneDeals = [
+export const phoneDeals = [
     {
         id: 1,
         name: 'Andriod Phones',
