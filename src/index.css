@@ -67,3 +67,7 @@
   .swiper-pagination-progressbar{
     background: rgb(255, 238, 205);
   }
+
+  .swiper-pagination-bullets{
+    visibility: hidden;
+  }

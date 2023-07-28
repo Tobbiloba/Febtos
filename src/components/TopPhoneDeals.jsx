@@ -30,16 +30,34 @@ const TopPhoneDeals = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper flex flex-row overflow-x-auto gap-[4rem]"
+        modules={[FreeMode]}
+        className="mySwiper"
       >
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        <SwiperSlide >
+        <TopDeals />
+        </SwiperSlide>
+        {/* <TopDeals />
         <TopDeals />
         <TopDeals />
         <TopDeals />
         <TopDeals />
         <TopDeals />
-        <TopDeals />
-        <TopDeals />
+        <TopDeals /> */}
       </Swiper>
         </div>
       
