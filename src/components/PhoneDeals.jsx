@@ -10,7 +10,7 @@ const PhoneDeals = () => {
         {
             phoneDeals.map((item) => (
                 <div key={item.id} className='mt-[1rem] rounded-md overflow-hidden w-[30%]'>
-                    <img src={item.image} alt="phones" className='w-[7rem] h-[8.5rem]'/>
+                    <img src={item.image} alt="phones" className='w-[100%] h-[8.5rem]'/>
                     <div className=' h-2 relative bottom-[1rem] '>
                         <h1 className='backdrop-blur-sm bg-black/70 text-white text-[12px] py-1 text-center font-mono font-bold rounded-b-md'>{item.name}</h1>
                     </div>
