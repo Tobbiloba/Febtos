@@ -11,10 +11,12 @@ const NikeOfficialStore = () => {
             <p className='text-slate-900 font-mono'>SEE ALL</p>
         </div>
         
-        <div className='padding'>
+        <div className='padding flex flex-row flex-wrap justify-between'>
             {
         nikeCategories.map((item) => (
-            <NikeCategory key={item.id} color={item.color} name={item.name} price={item.price} gender={item.gender}  images={item.subImage}/>
+          <div key={item.id} className='w-[10.5rem]'>
+            <NikeCategory  color={item.color} name={item.name} price={item.price} gender={item.gender}  images={item.subImage}/>
+            </div>
         ))
       }
         </div>
