@@ -1,0 +1,11 @@
+.swiper-pagination-bullets{
+    visibility: visible;
+  }
+
+  .swiper-pagination-bullet-active{
+    background: black;
+    width: 17.5px;
+    height: 8px;
+    border-radius: 6px;
+    
+  }
