@@ -60,7 +60,10 @@ const Menu = () => {
 
       <div className='fixed z-50 bottom-[1.5rem] w-[90%] h-[4rem] backdrop-blur-md bg-black/50 border rounded-[4rem] flex flex-row justify-evenly items-center '>
         <OtherHousesIcon className='text-white text-[26px] hover:text-orange-500'/>
+        <Link to="product-details">
         <StarsIcon className='text-white text-[27px] hover:text-orange-500'/>
+        </Link>
+        
         <FavoriteIcon className='text-white text-[26px] hover:text-orange-500'/>
         <Link to='/cart'>
         <ShoppingCartIcon className='text-white text-[26px] hover:text-orange-500'/>
