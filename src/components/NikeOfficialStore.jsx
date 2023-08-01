@@ -1,16 +1,14 @@
 import React from 'react';
 import { nikeCategories } from '../data/nikeCategories';
 import NikeCategory from './NikeCategory';
+import Tag from './Tag';
 const NikeOfficialStore = () => {
     
     // console.log(nikeCategories)
   return (
     <div className=' bg-white h-fit mt-[4rem]'>
-        <div className='bg-slate-400 px-[1.5rem] py-[.5rem] flex flex-row justify-between items-center'>
-            <h1 className='text-white text-xl font-bold font-mono'>Nike Official Store</h1>
-            <p className='text-slate-900 font-mono'>SEE ALL</p>
-        </div>
         
+        <Tag title='Nike Official Store' bg='bg-slate-500' link='/nike-store'/>
         <div className='padding flex flex-row flex-wrap justify-between'>
             {
         nikeCategories.map((item) => (

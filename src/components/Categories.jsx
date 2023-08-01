@@ -11,7 +11,7 @@ const Categories = () => {
       }, [])
     // console.log(categories)
   return (
-    <div className='padding mt-[1.5rem] flex flex-row overflow-x-auto gap-[2rem]'>
+    <div className='px-[20px] pt-[1.5rem]  bg-white flex flex-row overflow-x-auto gap-[2rem]'>
       {
         categories.map((item) => (
             <div key={item.id} className='flex justify-center flex-col items-center gap-2'>
@@ -26,7 +26,7 @@ const Categories = () => {
                     
                 
                 </div>
-                <h1 className='text-[14px] text-center font-mono'>{item.name}</h1>
+                <h1 className='text-[12px] font-light text-center font-sans'>{item.name}</h1>
             </div>
         ))
       }

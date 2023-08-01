@@ -61,3 +61,67 @@ export const categories = [
     },
   ];
   
+
+
+  export const mainCategory = [
+    {
+      id: 1,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/phones-tablets_300x240.png',
+      title: 'Phones & Tablets',
+    },
+    {
+      id: 2,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/generic_300x240.jpg',
+      title: 'Computiing Deals',
+    },
+    {
+      id: 3,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/groceries_300x240v2.png',
+      title: 'Groceries',
+    },
+    {
+      id: 4,
+      img: 'https://ng.jumia.is/cms/0-6-anniversary/2023/Brand-day/30-Nivea/generic_300x240.jpg',
+      title: 'Health & Beauty',
+    },
+    {
+      id: 5,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/fash_300x240.jpg',
+      title: 'Fashion',
+    },
+    {
+      id: 6,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/televisions_300x240.png',
+      title: 'Televisions',
+    },
+    {
+      id: 7,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/refrigerators_300x240.png',
+      title: 'Refrigerators',
+    },
+    {
+      id: 8,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/earphones_300x240.png',
+      title: 'Mobile Accessories',
+    },
+    {
+      id: 9,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/generator.gif',
+      title: 'Generators',
+    },
+    {
+      id: 10,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/fashion_300x240.png',
+      title: "Men's Sneakers",
+    },
+    {
+      id: 11,
+      img: 'https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x240/watches_300x240.png',
+      title: 'Watches',
+    },
+    {
+      id: 12,
+      img: 'https://ng.jumia.is/cms/0-1-initiatives/clearance-sale/2023/Clearance.gif',
+      title: 'Clearance Sales',
+    },
+  ]

@@ -71,3 +71,11 @@
   .swiper-pagination-bullets{
     visibility: hidden;
   }
+  .swiper-slide{
+    /* background: black; */
+    /* margin-left: 1rem; */
+    width: fit-content;
+  }
+  .slider-wrapper{
+    background: black;
+  }

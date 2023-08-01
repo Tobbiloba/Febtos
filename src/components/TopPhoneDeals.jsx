@@ -13,27 +13,26 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
+import Tag from './Tag';
 
 
 const TopPhoneDeals = () => {
   return (
     <div className='pb-[3rem] overflow-hidden w-[100vw'>
-        <div className='bg-slate-400 px-[1.5rem] py-[.25rem] text-center'>
-            <h1 className='text-white text-[18px] font-bold font-mono'>Top Phone Deals</h1>
-        </div>
+        <Tag title="Top Phone Deals" bg='bg-slate-400' link='top-phone-deals'/>
         <div className='padding flex flex-row  mt-[2rem] gap-[2rem]  padding w-[100vw]'>
             
             <Swiper
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={150}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
         modules={[FreeMode]}
-        className="mySwiper"
+        className="mySwiper "
       >
-        <SwiperSlide >
+        <SwiperSlide className=''>
         <TopDeals />
         </SwiperSlide>
         <SwiperSlide >

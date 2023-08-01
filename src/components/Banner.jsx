@@ -15,7 +15,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 
 const Banner = () => {
   return (
-    <div className='padding mt-[1rem]'>
+    <div className='px-[20px] pt-[1rem] bg-white'>
       <Swiper
         pagination={{
           type: 'progressbar',

@@ -10,11 +10,14 @@ import {RiSearch2Line} from 'react-icons/ri'
 import {RiNotification3Line} from 'react-icons/ri'
 // import {PiBellThin} from 'react-icons/pi'
 import {BiCustomize} from 'react-icons/bi'
+import {BsPerson} from 'react-icons/bs'
+import {BsBell} from 'react-icons/bs'
+import {BsSearch} from 'react-icons/bs'
 import React, {useState} from 'react';
 
 import { Slide } from '@mui/material';
 const Menu = () => {
-    const [showSearch, setShowSearch] = useState(false);
+    const [showSearch, setShowSearch] = useState(true);
     const [showNotification, setShowNotification] = useState(false);
 
     const handleShowNotification = () => {
@@ -25,22 +28,22 @@ const Menu = () => {
         setShowSearch(!showSearch)
     }
   return (
-    <div className='flex flex-col padding pt-0'>
-      <div className='bg-white z-20 flex flex-row justify-between items-center pt-[1.25rem] pb-[.5rem]'>
+    <div className='flex flex-col padding pt-0 bg-white'>
+      <div className='bg-whitre z-20 flex flex-row justify-between items-center pt-[1.25rem] pb-[.5rem]'>
         <div className='flex flex-row gap-[1rem] items-center'>
             <div className='w-8 h-8 rounded-full bg-black'></div>
             <h1 className='font-mono text-[20px] font-medium text-slate-900'>Febtos</h1>
         </div>
         <div className='flex flex-row gap-[1rem]'>
-            <RiSearch2Line className='icon text-slate-500 cursor-pointer' onClick={handleShowSearch}/>
-            <RiNotification3Line className='icon text-slate-500 cursor-pointer'onClick={handleShowNotification}/>
+            <BsPerson className='icon text-slate-500 cursor-pointer' onClick={handleShowSearch}/>
+            <BsBell className='icon text-slate-500 cursor-pointer'onClick={handleShowNotification}/>
         </div>
       </div>
       {
         showSearch && 
         <Slide direction="down" in={showSearch} mountOnEnter unmountOnExit>
-          <div className='w-[100%] border mt-[1rem] py-2 px-3  bg-slate-100 rounded-2xl flex flex-row'>
-            <RiSearch2Line className='icon text-slate-500'/>
+          <div className='w-[100%] border mt-[1rem] py-2 px-3  bg-white rounded-2xl flex flex-row'>
+            <BsSearch className='icon text-slate-500'/>
             <input placeholder='Search...' className='bg-inherit border-red-500 outline-none w-[100%] font-mono px-2'/>
             <div className='h-[100%] bg-black w-[1px] mx-2'></div>
             <BiCustomize className='text-[25px] text-slate-500 cursor-pointer'/>

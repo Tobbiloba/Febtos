@@ -8,6 +8,7 @@ import NikeOfficialStore from '../components/NikeOfficialStore';
 import PhoneDeals from '../components/PhoneDeals';
 import TopPhoneDeals from '../components/TopPhoneDeals';
 import Banner from '../components/Banner';
+import MainCategory from '../components/MainCategory';
 const Homepage = () => {
 //   const currentScrollHeight = document.documentElement.scrollTop;
 // console.log('Curren window scroll height:', currentScrollHeight);
@@ -37,7 +38,7 @@ window.addEventListener('scroll', handleScroll);
 
 
   return (
-    <div>
+    <div className='bg-slate-100'>
       {
         showMenu &&
         <Menu />
@@ -47,6 +48,10 @@ window.addEventListener('scroll', handleScroll);
         
         <Banner />
         <Categories />
+        <div className='relative top-[1rem]'>
+          <MainCategory />
+        </div>
+        
         <SpecialForYou />
         <NikeOfficialStore />
         <Ad />
