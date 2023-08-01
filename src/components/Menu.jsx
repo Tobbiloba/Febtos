@@ -15,6 +15,8 @@ import {BsBell} from 'react-icons/bs'
 import {BsSearch} from 'react-icons/bs'
 import React, {useState} from 'react';
 
+
+import { Link } from 'react-router-dom';
 import { Slide } from '@mui/material';
 const Menu = () => {
     const [showSearch, setShowSearch] = useState(true);
@@ -60,7 +62,10 @@ const Menu = () => {
         <OtherHousesIcon className='text-white text-[26px] hover:text-orange-500'/>
         <StarsIcon className='text-white text-[27px] hover:text-orange-500'/>
         <FavoriteIcon className='text-white text-[26px] hover:text-orange-500'/>
+        <Link to='/cart'>
         <ShoppingCartIcon className='text-white text-[26px] hover:text-orange-500'/>
+        </Link>
+        
         <Person2Icon className='text-white text-[28px] hover:text-orange-500'/>
       </div>
     </div>
